@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{88394589-0E8F-4114-BD4C-B415F5FC0FE2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ProiectPAW</RootNamespace>
+    <AssemblyName>ProiectPAW</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdaugaCameraForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdaugaCameraForm.Designer.cs">
+      <DependentUpon>AdaugaCameraForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Back.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Back.Designer.cs">
+      <DependentUpon>Back.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Camera.cs" />
+    <Compile Include="Client.cs" />
+    <Compile Include="Grafic.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Grafic.Designer.cs">
+      <DependentUpon>Grafic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MeniuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MeniuForm.Designer.cs">
+      <DependentUpon>MeniuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RezervaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RezervaForm.Designer.cs">
+      <DependentUpon>RezervaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rezervare.cs" />
+    <Compile Include="Vizualizare Rezervari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vizualizare Rezervari.Designer.cs">
+      <DependentUpon>Vizualizare Rezervari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VizualizareCamere.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VizualizareCamere.Designer.cs">
+      <DependentUpon>VizualizareCamere.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdaugaCameraForm.resx">
+      <DependentUpon>AdaugaCameraForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Back.resx">
+      <DependentUpon>Back.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grafic.resx">
+      <DependentUpon>Grafic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MeniuForm.resx">
+      <DependentUpon>MeniuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RezervaForm.resx">
+      <DependentUpon>RezervaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vizualizare Rezervari.resx">
+      <DependentUpon>Vizualizare Rezervari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VizualizareCamere.resx">
+      <DependentUpon>VizualizareCamere.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Cerinte.txt" />
+    <None Include="Resources\appBg.jpg" />
+    <None Include="Resources\app-background.jpg" />
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

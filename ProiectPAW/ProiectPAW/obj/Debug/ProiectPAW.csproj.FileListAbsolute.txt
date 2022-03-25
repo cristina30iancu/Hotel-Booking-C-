@@ -1,0 +1,16 @@
+C:\Users\EU\source\repos\ProiectPAW\ProiectPAW\bin\Debug\ProiectPAW.exe.config
+C:\Users\EU\source\repos\ProiectPAW\ProiectPAW\bin\Debug\ProiectPAW.exe
+C:\Users\EU\source\repos\ProiectPAW\ProiectPAW\bin\Debug\ProiectPAW.pdb
+C:\Users\EU\source\repos\ProiectPAW\ProiectPAW\obj\Debug\ProiectPAW.csprojAssemblyReference.cache
+C:\Users\EU\source\repos\ProiectPAW\ProiectPAW\obj\Debug\ProiectPAW.AdaugaCameraForm.resources
+C:\Users\EU\source\repos\ProiectPAW\ProiectPAW\obj\Debug\ProiectPAW.Grafic.resources
+C:\Users\EU\source\repos\ProiectPAW\ProiectPAW\obj\Debug\ProiectPAW.MeniuForm.resources
+C:\Users\EU\source\repos\ProiectPAW\ProiectPAW\obj\Debug\ProiectPAW.Properties.Resources.resources
+C:\Users\EU\source\repos\ProiectPAW\ProiectPAW\obj\Debug\ProiectPAW.RezervaForm.resources
+C:\Users\EU\source\repos\ProiectPAW\ProiectPAW\obj\Debug\ProiectPAW.VizRezervariForm.resources
+C:\Users\EU\source\repos\ProiectPAW\ProiectPAW\obj\Debug\ProiectPAW.VizualizareCamere.resources
+C:\Users\EU\source\repos\ProiectPAW\ProiectPAW\obj\Debug\ProiectPAW.csproj.GenerateResource.cache
+C:\Users\EU\source\repos\ProiectPAW\ProiectPAW\obj\Debug\ProiectPAW.csproj.CoreCompileInputs.cache
+C:\Users\EU\source\repos\ProiectPAW\ProiectPAW\obj\Debug\ProiectPAW.exe
+C:\Users\EU\source\repos\ProiectPAW\ProiectPAW\obj\Debug\ProiectPAW.pdb
+C:\Users\EU\source\repos\ProiectPAW\ProiectPAW\obj\Debug\ProiectPAW.Back.resources
