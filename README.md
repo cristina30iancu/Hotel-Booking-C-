@@ -1,4 +1,4 @@
-# Hotel-Booking-C-
+# Hotel-Booking-C#
 
 Proiect pentru disciplina Programarea Aplicatiilor Windows. Aceasta aplicatie
 este de tip desktop, scrisa in limbajul de programare C#. 
